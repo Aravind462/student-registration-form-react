@@ -114,7 +114,7 @@ function App() {
               {error.gender && <Typography variant='body2' color='error' sx={{ textAlign:'left' }}>{error.gender}</Typography>}
             </FormControl>
           </Box>
-          <Box mt={3} display="flex" justifyContent="center" gap={2}>
+          <Box my={3} display="flex" justifyContent="center" gap={2}>
             <Button onClick={handleSubmit} variant="contained" disableElevation>Submit</Button>
             <Button onClick={handleReset} variant="outlined">Reset</Button>
           </Box>
